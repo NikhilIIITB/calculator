@@ -6,7 +6,7 @@
   tasks:
     - name: Pull Docker Image
       docker_image:
-        name: "nikhiliitb/calculator"
+        name: "nikhiliiitb/calculator"
         source: pull
       register: docker_pull_result
 
